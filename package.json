@@ -1,0 +1,22 @@
+{
+  "name": "@ava-avant-iconic/task-priority-queue",
+  "version": "0.1.0",
+  "description": "Lightweight persistent priority queue for Node.js with SQLite backing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "jest --passWithNoTests",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["typescript", "open-source"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}
